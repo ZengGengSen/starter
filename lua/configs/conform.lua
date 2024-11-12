@@ -3,8 +3,8 @@ local options = {
     lua = { "stylua" },
     -- css = { "prettier" },
     -- html = { "prettier" },
+    rust = { "rustfmt", lsp_format = "fallback" },
   },
-
   -- format_on_save = {
   --   -- These options will be passed to conform.format()
   --   timeout_ms = 500,
