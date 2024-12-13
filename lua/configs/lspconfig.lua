@@ -7,6 +7,7 @@ local servers = {
   "clangd",
   "cmake",
   "rust_analyzer",
+  "mesonlsp",
 }
 
 local nvlsp = require "nvchad.configs.lspconfig"

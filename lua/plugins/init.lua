@@ -19,7 +19,7 @@ return {
       ensure_installed = {
         "lua-language-server", "stylua",
         "clangd", "cmake-language-server",
-        "rust-analyzer",
+        "rust-analyzer", "mesonlsp"
       },
     },
   },
