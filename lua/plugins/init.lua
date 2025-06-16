@@ -17,9 +17,12 @@ return {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
-        "lua-language-server", "stylua",
-        "clangd", "cmake-language-server",
-        "rust-analyzer", "mesonlsp"
+        "lua-language-server",
+        "stylua",
+        "clangd",
+        "cmake-language-server",
+        "rust-analyzer",
+        "mesonlsp",
       },
     },
   },
