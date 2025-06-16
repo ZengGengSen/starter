@@ -1,3 +1,5 @@
+local map = vim.keymap.set
+
 local servers = {
   "clangd",
   "cmake",
@@ -7,3 +9,5 @@ local servers = {
 }
 
 vim.lsp.enable(servers)
+
+map("n", "gd", ":lua vim.lsp.buf.definition()<CR>", { desc = "go to definition" })
