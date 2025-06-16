@@ -2,7 +2,8 @@ local servers = {
   "clangd",
   "cmake",
   "rust_analyzer",
-  "mesonlsp",
+  "taplo",
+  "mesonlsp"
 }
 
 vim.lsp.enable(servers)
