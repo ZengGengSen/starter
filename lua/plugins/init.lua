@@ -16,26 +16,18 @@ return {
 
   {
     "williamboman/mason.nvim",
-    opts = {
-      ensure_installed = {
-        "lua-language-server",
-        "stylua",
-        "clangd",
-        "cmake-language-server",
-        "rust-analyzer",
-        "mesonlsp",
-      },
-    },
+    opts = require "options.mason",
   },
 
   {
     "nvim-treesitter/nvim-treesitter",
-    opts = {
-      ensure_installed = {
-        "vim", "lua", "vimdoc",
-        "c", "cpp",
-      },
-    },
+    opts = require "options.treesitter",
+  },
+
+  {
+    "stevearc/dressing.nvim",
+    lazy = false,
+    opts = {},
   },
 
   {
